@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FinalProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderMeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereMeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuboidMeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneMeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CuboidMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CylinderMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\amp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\amp_side.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\amp_side_face.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\battery_case_bottom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\battery_case_side.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\battery_case_side_decal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\battery_case_top.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\battery_terminal_side.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\battery_terminal_top.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\marble.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\phone_box.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\table_tile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\volume_knob_front.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\volume_knob_side.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
